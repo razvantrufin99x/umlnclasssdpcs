@@ -1,0 +1,22 @@
+<Project>
+  <Name>singleton</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>singletonpattern</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Singleton</Name>
+        <Access>Public</Access>
+        <Location left="49" top="70" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">static Singleton uniqueInstance = new Singleton()</Member>
+        <Member type="Constructor">public Singleton()</Member>
+        <Member type="Constructor">static Singleton()</Member>
+        <Member type="Method">public static Singleton Instance()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>
